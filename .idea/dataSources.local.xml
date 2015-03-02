@@ -2,5 +2,8 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails socialInbox: development" uuid="8d8f2d3f-e77b-43c6-815f-965b9bf364f9" />
+    <data-source name="SQLite -" uuid="d3e7986f-cf45-4cc0-bb0b-8fcd67a596da">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
   </component>
 </project>

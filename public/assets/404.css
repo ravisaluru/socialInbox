@@ -1,0 +1,59 @@
+
+
+body {
+
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    background: url(background.png) repeat;
+}
+
+div.container {
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    display:-moz-box;
+    -moz-box-orient:horizontal;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    height: 100%;
+    width: 100%;
+}
+
+div#container_404 {
+    position:relative;
+    width: 400px;
+    height: 610px;
+
+}
+
+@-moz-keyframes maze_animation {
+    0% 	 {-moz-transform: rotate(360deg)}
+    100%  {-moz-transform: rotate(0deg)}
+}
+
+@-webkit-keyframes maze_animation {
+    0% 	 {-webkit-transform: rotate(360deg)}
+    100%  {-webkit-transform: rotate(0deg)}
+}
+
+div#maze {
+
+    width: 173px;
+    height: 163px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: maze_animation 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation: maze_animation 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+}
+
